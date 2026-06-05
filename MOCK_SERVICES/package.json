@@ -1,0 +1,14 @@
+{
+  "name": "metro-sim-mock-services",
+  "version": "1.0.0",
+  "private": true,
+  "type": "commonjs",
+  "scripts": {
+    "start:backend": "node src/mock-backend.js",
+    "start:llm": "node src/mock-llm.js",
+    "start": "node src/mock-backend.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
